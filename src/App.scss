@@ -192,9 +192,18 @@
       height: 100px;
       margin-right: 150px;
     }
+    .nav-bar{
+      display: flex;
+      p {
+        width: 60px;
+        font-size: 14px;
+      }
+    }
   }
 
   .footer{
+    height: 210px!important;
+
     .logo{
       display: flex;
       flex-direction: column;
